@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-export default function CarInventoryManager() {
+const CarInventoryManager = () => {
   const [cars, setCars] = useState([]);
   const [form, setForm] = useState({ id: null, make: "", model: "", year: "", price: "" });
   const [editing, setEditing] = useState(false);
@@ -209,3 +209,5 @@ export default function CarInventoryManager() {
     </div>
   );
 }
+
+export default CarInventoryManager

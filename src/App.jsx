@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import InventoryManager from './InventoryManager.jsx'
+import CarInventoryManager from './InventoryManager.jsx'
 import './App.css'
 
 function App() {
 
   return (
-    <>
-      <InventoryManager/>
-    </>
+    <div>
+      <CarInventoryManager/>
+    </div>
   )
 }
 

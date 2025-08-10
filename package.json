@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "hompage": "https://edolly2.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
